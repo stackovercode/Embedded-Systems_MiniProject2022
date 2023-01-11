@@ -2,12 +2,12 @@
 #include <iostream>
 #include "bram_uio.h"
 
-int VIDEO_SIZE = 10;
+int VIDEO_SIZE = 25; //25x25
 
 int main()
 {
 	char device_file_name[20];
-	sprintf(device_file_name, "/dev/uio%d", 0);
+	sprintf(device_file_name, "/dev/uio%d", 0); //Setting the address to uio0
 	int device_file;
 
 	if ((device_file = open(device_file_name, O_RDWR | O_SYNC)) < 0)
@@ -18,7 +18,7 @@ int main()
 	}
 
 	uint8_t *bram_ptr;
-	bram_ptr = (uint8_t *)mmap(NULL, 8192, PROT_READ | PROT_WRITE, MAP_SHARED, device_file, 0x0);
+	bram_ptr = (uint8_t *)mmap(NULL, 8192, PROT_READ | PROT_WRITE, MAP_SHARED, device_file, 0x0); //Mapping of the BRAM to a pointer
 
 	if (bram_ptr == NULL)
 	{
@@ -55,7 +55,7 @@ int main()
 		cv::resize(fullSizeBaseImage, baseImage, cv::Size(VIDEO_SIZE, VIDEO_SIZE));
 		cv::cvtColor(baseImage, gray, cv::COLOR_BGR2GRAY);
 
-		std::cout << "\033[01;1H";
+		//std::cout << "\033[01;1H"; //Clear the terminal
 
 		// BRAM writer
 
