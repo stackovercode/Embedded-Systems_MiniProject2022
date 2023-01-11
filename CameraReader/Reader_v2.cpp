@@ -63,7 +63,7 @@ int main()
 		{
 			for (int j = 0; j < VIDEO_SIZE; j++)
 			{
-				bram_ptr[i * 10 + j] = gray.at<uchar>(j, i);
+				bram_ptr[i * 10 + j] = gray.at<uchar>(i, j);
 			}
 		}
 	}
