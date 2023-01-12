@@ -1,0 +1,313 @@
+[0.151s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.152s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd9c2b3a430>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd9c2b3a430>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd9c2b3a970>)
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.182s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ibyou/robotis_ws'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.233s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/ibyou/Desktop/Embedded_System/Ros2_Motor/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 171 installed packages in /opt/ros/foxy
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ibyou/robotis_ws/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ibyou/robotis_ws/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk', 'symlink_install': True, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': '/home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples', 'merge_install': False, 'path': '/home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples', 'symlink_install': True, 'test_result_base': None}
+[0.278s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.286s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk' with build type 'ament_cmake'
+[0.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk'
+[0.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ibyou/robotis_ws/install/dynamixel_sdk
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces
+[1.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ibyou/robotis_ws/install/dynamixel_sdk
+[1.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ibyou/robotis_ws/build/dynamixel_sdk -- -j12 -l12
+[1.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces
+[1.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j12 -l12
+[1.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ibyou/robotis_ws/build/dynamixel_sdk -- -j12 -l12
+[1.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ibyou/robotis_ws/build/dynamixel_sdk
+[2.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[2.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ibyou/robotis_ws/build/dynamixel_sdk
+[2.143s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk' for CMake module files
+[2.143s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk' for CMake config files
+[2.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[2.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[2.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[2.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk/lib'
+[2.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[2.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[2.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[2.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[2.153s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk/bin'
+[2.153s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk/lib/python3.8/site-packages'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk/bin'
+[2.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[2.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[2.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[2.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibyou/robotis_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[2.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk' for CMake module files
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk' for CMake config files
+[2.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk/lib'
+[2.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[2.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[2.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[2.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[2.215s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk/bin'
+[2.215s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[2.216s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk/lib/python3.8/site-packages'
+[2.216s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk/bin'
+[2.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[2.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[2.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[2.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibyou/robotis_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[4.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j12 -l12
+[4.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces
+[5.168s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[5.172s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[5.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces
+[5.173s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[5.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[5.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[5.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[5.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[5.177s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[5.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[5.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[5.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[5.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[5.180s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[5.181s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[5.181s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages'
+[5.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'pythonpath')
+[5.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.ps1'
+[5.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.dsv'
+[5.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.sh'
+[5.184s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[5.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[5.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[5.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[5.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[5.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[5.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[5.243s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[5.246s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[5.247s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[5.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[5.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[5.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[5.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[5.251s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[5.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[5.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[5.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[5.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[5.255s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[5.255s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[5.255s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages'
+[5.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'pythonpath')
+[5.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.ps1'
+[5.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.dsv'
+[5.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.sh'
+[5.259s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[5.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[5.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[5.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[5.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[5.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[5.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[5.264s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples' with build type 'ament_cmake'
+[5.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples'
+[5.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ibyou/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ibyou/robotis_ws/install/dynamixel_sdk_examples
+[6.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ibyou/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ibyou/robotis_ws/install/dynamixel_sdk_examples
+[6.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ibyou/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ibyou/robotis_ws/build/dynamixel_sdk_examples -- -j12 -l12
+[11.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ibyou/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ibyou/robotis_ws/build/dynamixel_sdk_examples -- -j12 -l12
+[11.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ibyou/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ibyou/robotis_ws/build/dynamixel_sdk_examples
+[11.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[11.382s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples' for CMake module files
+[11.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ibyou/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ibyou/robotis_ws/build/dynamixel_sdk_examples
+[11.383s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples' for CMake config files
+[11.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[11.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[11.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[11.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[11.387s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/lib'
+[11.387s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/bin'
+[11.387s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[11.388s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/lib/python3.8/site-packages'
+[11.388s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/bin'
+[11.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[11.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[11.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[11.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[11.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[11.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[11.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[11.421s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples' for CMake module files
+[11.421s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples' for CMake config files
+[11.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[11.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[11.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[11.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[11.426s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/lib'
+[11.426s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/bin'
+[11.426s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[11.426s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/lib/python3.8/site-packages'
+[11.426s] Level 1:colcon.colcon_core.environment:checking '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/bin'
+[11.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[11.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[11.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[11.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[11.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[11.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[11.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.431s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.439s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.439s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.439s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.452s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.455s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ibyou/robotis_ws/install/local_setup.ps1'
+[11.455s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ibyou/robotis_ws/install/_local_setup_util_ps1.py'
+[11.456s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ibyou/robotis_ws/install/setup.ps1'
+[11.458s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ibyou/robotis_ws/install/local_setup.sh'
+[11.458s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ibyou/robotis_ws/install/_local_setup_util_sh.py'
+[11.458s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ibyou/robotis_ws/install/setup.sh'
+[11.460s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ibyou/robotis_ws/install/local_setup.bash'
+[11.460s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ibyou/robotis_ws/install/setup.bash'
+[11.462s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ibyou/robotis_ws/install/local_setup.zsh'
+[11.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ibyou/robotis_ws/install/setup.zsh'

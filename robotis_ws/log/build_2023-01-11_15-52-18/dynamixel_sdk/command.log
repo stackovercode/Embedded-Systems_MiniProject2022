@@ -1,0 +1,6 @@
+Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ibyou/robotis_ws/install/dynamixel_sdk
+Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ibyou/robotis_ws/install/dynamixel_sdk
+Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ibyou/robotis_ws/build/dynamixel_sdk -- -j12 -l12
+Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ibyou/robotis_ws/build/dynamixel_sdk -- -j12 -l12
+Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ibyou/robotis_ws/build/dynamixel_sdk
+Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ibyou/robotis_ws/build/dynamixel_sdk
