@@ -1,0 +1,11 @@
+[0.014s] Invoking command in '/home/ibyou/Desktop/Embedded_System/Embedded-Systems_MiniProject2022/package_ROS2/robotis_ws/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake --build /home/ibyou/Desktop/Embedded_System/Embedded-Systems_MiniProject2022/package_ROS2/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j12 -l12
+[0.022s] CMake Error: The current CMakeCache.txt directory /home/ibyou/Desktop/Embedded_System/Embedded-Systems_MiniProject2022/package_ROS2/robotis_ws/build/dynamixel_sdk_custom_interfaces/CMakeCache.txt is different than the directory /home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.043s] /bin/sh: 1: cd: can't cd to /home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces
+[0.044s] make[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/build.make:132: CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/depend] Error 2
+[0.044s] make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/all] Error 2
+[0.044s] make[1]: *** Waiting for unfinished jobs....
+[0.044s] /bin/sh: 1: cd: can't cd to /home/ibyou/robotis_ws/build/dynamixel_sdk_custom_interfaces
+[0.044s] make[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/build.make:179: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/depend] Error 2
+[0.045s] make[1]: *** [CMakeFiles/Makefile2:304: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/all] Error 2
+[0.045s] make: *** [Makefile:141: all] Error 2
+[0.047s] Invoked command in '/home/ibyou/Desktop/Embedded_System/Embedded-Systems_MiniProject2022/package_ROS2/robotis_ws/build/dynamixel_sdk_custom_interfaces' returned '2': /usr/bin/cmake --build /home/ibyou/Desktop/Embedded_System/Embedded-Systems_MiniProject2022/package_ROS2/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j12 -l12
