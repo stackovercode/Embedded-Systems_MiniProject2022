@@ -4,8 +4,7 @@ RosMsg.cpp: Send the message used to puplich the message to the node. A custom m
 
 
 
-dynamixel_sdk_examples/src/read_write_node is used as the node with custom code. The inverse kinematic is implemented here, with take the prediction as msg and calculating the IK then executing the run.
-
+dynamixel sdk examples/src/read_write node is used as the node with custom code. The inverse kinematic is implemented here, the node takes msg(prediction) and calculates the IK then executes the motors.
 
 
 
