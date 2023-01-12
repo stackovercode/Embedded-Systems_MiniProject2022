@@ -1,0 +1,14 @@
+[0.016s] Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/home/ibyou/robotis_ws/install/dynamixel_sdk_examples:/opt/ros/foxy /usr/bin/cmake --build /home/ibyou/robotis_ws/build/dynamixel_sdk_examples -- -j12 -l12
+[0.054s] [35m[1mScanning dependencies of target read_write_node[0m
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[1.148s] [01m[K/home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp:[m[K In lambda function:
+[1.148s] [01m[K/home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp:140:41:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kint&[m[K’ to an rvalue of type ‘[01m[Kint[m[K’
+[1.148s]   140 |               CaluclateTheIK(msg->pred, [01;31m[Kpos1[m[K, pos2);
+[1.148s]       |                                         [01;31m[K^~~~[m[K
+[1.148s] [01m[K/home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp:89:36:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid CaluclateTheIK(int, int&, int&)[m[K’
+[1.148s]    89 | void CaluclateTheIK(int pred, [01;36m[Kint &pos1[m[K, int &pos2)
+[1.148s]       |                               [01;36m[K~~~~~^~~~[m[K
+[2.332s] make[2]: *** [CMakeFiles/read_write_node.dir/build.make:63: CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o] Error 1
+[2.333s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/read_write_node.dir/all] Error 2
+[2.333s] make: *** [Makefile:141: all] Error 2
+[2.335s] Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples' returned '2': CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/home/ibyou/robotis_ws/install/dynamixel_sdk_examples:/opt/ros/foxy /usr/bin/cmake --build /home/ibyou/robotis_ws/build/dynamixel_sdk_examples -- -j12 -l12

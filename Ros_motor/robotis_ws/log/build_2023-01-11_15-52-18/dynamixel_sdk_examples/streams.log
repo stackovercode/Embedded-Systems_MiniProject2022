@@ -1,0 +1,79 @@
+[0.011s] Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ibyou/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ibyou/robotis_ws/install/dynamixel_sdk_examples
+[0.059s] -- The C compiler identification is GNU 9.4.0
+[0.106s] -- The CXX compiler identification is GNU 9.4.0
+[0.110s] -- Check for working C compiler: /usr/bin/cc
+[0.171s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.171s] -- Detecting C compiler ABI info
+[0.233s] -- Detecting C compiler ABI info - done
+[0.243s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.316s] -- Detecting CXX compiler ABI info
+[0.391s] -- Detecting CXX compiler ABI info - done
+[0.403s] -- Detecting CXX compile features
+[0.403s] -- Detecting CXX compile features - done
+[0.405s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.425s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.425s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.580s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.602s] -- Found dynamixel_sdk: 3.7.40 (/home/ibyou/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.604s] -- Found dynamixel_sdk_custom_interfaces: 3.7.40 (/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[0.629s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.634s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.695s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.715s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.825s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.878s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.880s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.882s] -- Looking for pthread.h
+[0.947s] -- Looking for pthread.h - found
+[0.947s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.048s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.049s] -- Looking for pthread_create in pthreads
+[1.150s] -- Looking for pthread_create in pthreads - not found
+[1.150s] -- Looking for pthread_create in pthread
+[1.273s] -- Looking for pthread_create in pthread - found
+[1.274s] -- Found Threads: TRUE  
+[1.425s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.504s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.505s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.505s] -- Configured cppcheck include dirs: /home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/include
+[1.505s] -- Configured cppcheck exclude dirs and/or files: 
+[1.506s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.506s] -- Configured cpplint exclude dirs and/or files: 
+[1.507s] -- Added test 'lint_cmake' to check CMake code style
+[1.508s] -- Added test 'uncrustify' to check C / C++ code style
+[1.508s] -- Configured uncrustify additional arguments: 
+[1.508s] -- Added test 'xmllint' to check XML markup files
+[1.511s] -- Configuring done
+[1.518s] -- Generating done
+[1.519s] -- Build files have been written to: /home/ibyou/robotis_ws/build/dynamixel_sdk_examples
+[1.525s] Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ibyou/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ibyou/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ibyou/robotis_ws/install/dynamixel_sdk_examples
+[1.527s] Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ibyou/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ibyou/robotis_ws/build/dynamixel_sdk_examples -- -j12 -l12
+[1.563s] [35m[1mScanning dependencies of target read_write_node[0m
+[1.659s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[5.690s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[5.938s] [100%] Built target read_write_node
+[5.948s] Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ibyou/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ibyou/robotis_ws/build/dynamixel_sdk_examples -- -j12 -l12
+[5.971s] Invoking command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ibyou/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ibyou/robotis_ws/build/dynamixel_sdk_examples
+[5.978s] -- Install configuration: ""
+[5.978s] -- Execute custom install script
+[5.979s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[5.987s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[5.995s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[6.003s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[6.011s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[6.019s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[6.027s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[6.035s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[6.043s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[6.052s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[6.059s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[6.067s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[6.075s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[6.084s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[6.092s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[6.099s] -- Symlinking: /home/ibyou/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[6.113s] Invoked command in '/home/ibyou/robotis_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ibyou/robotis_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ibyou/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ibyou/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ibyou/robotis_ws/build/dynamixel_sdk_examples
