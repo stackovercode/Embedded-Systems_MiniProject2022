@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="matmul.cpp" path="/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/HLS/code/matmul.cpp"/>
+    <originFiles name="matmul.hpp" path="/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/HLS/code/matmul.hpp"/>
+  </source>
+  <testbench>
+    <originFiles name="matmul_tb.cpp" path="/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/HLS/code/matmul_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

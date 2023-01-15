@@ -1,0 +1,8 @@
+/*emb_system*/
+the_ROM_image:
+{
+  [bootloader, destination_cpu=a53-0]<emb_system/boot/fsbl.elf>
+  [pmufw_image]<emb_system/boot/pmufw.elf>
+  [destination_device=pl] <bitstream>
+  [destination_cpu=a53-0, exception_level=el-3] <elf,psu_cortexa53_0>
+}
