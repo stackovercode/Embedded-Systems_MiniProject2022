@@ -1,3 +1,30 @@
+#Small update.
+
+To run pull down.
+source your vivado/year/settings.sh
+source your petalinux/year/settings.sh if the settings is not there try petalinux/year/bin/settings.sh
+in the MpSoC4Drones directory run. source scripts/settings.dh
+
+It was tested and should work with only running the setup and be ready to be built:
+HLS should contain:
+Code: matmul.cpp, matmul.hpp and matmul_tb.cpp (For running the HLS synthesis)
+output: nn_inference.zip (this is the RTL export in vivado)
+
+IP: there should be a NN_inference unpacked
+SRC: system-user.dtsi (For the kernal to know what BRAM is added)
+fix_address.vhdl (fixes the address to fit a bigger bit range)
+not gate.vhdl (It is a not gate....i dont know what to tell you)
+nn_ctrl (the main block to start the nn_inference)
+
+VITIS: helloworld.c (bare metal testing source code) -rember set the heaps/stacks and stdout
+
+IF any of these are missing get them from code base and HW. YOu can add them and they should be fine.
+One last thing that could nto be added as part of this.
+
+Before trying a full build make a folder caled drivers, enter it and add git submodule add git@github.com:DIII-SDU-Group/BRAM-uio-driver.git
+It will make it easier to acces the BRAM
+
+
 # MPSoC4Drones
 
 ██████╗░██╗██╗██╗  
