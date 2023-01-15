@@ -1,0 +1,47 @@
+INFO: [HLS 200-10] Running '/home/steffen/tools/Vitis_HLS/2020.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'steffen' on host 'steffen-Lenovo-YOGA-530-14ARR' (Linux_x86_64 version 5.15.0-58-generic) on Wed Jan 15 20:14:41 CET 2020
+INFO: [HLS 200-10] On os Ubuntu 20.04.5 LTS
+INFO: [HLS 200-10] In directory '/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/HLS/code'
+Sourcing Tcl script '/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/HLS/code/nn_inference/solution1/export.tcl'
+INFO: [HLS 200-1510] Running: open_project nn_inference 
+INFO: [HLS 200-10] Opening project '/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/HLS/code/nn_inference'.
+INFO: [HLS 200-1510] Running: set_top nn_inference 
+INFO: [HLS 200-1510] Running: add_files matmul.cpp 
+INFO: [HLS 200-10] Adding design file 'matmul.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files matmul.hpp 
+INFO: [HLS 200-10] Adding design file 'matmul.hpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb matmul_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'matmul_tb.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution '/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/HLS/code/nn_inference/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-i'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2020.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xczu3eg-sbva484-1-i 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: export_design -rtl vhdl -format ip_catalog -output /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/HLS/output/nn_inference.zip 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/steffen/tools/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'nn_inference_ap_dcmp_0_no_dsp_64' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'nn_inference_ap_dcmp_0_no_dsp_64'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'nn_inference_ap_dcmp_0_no_dsp_64'...
+WARNING: [IP_Flow 19-4832] The IP name 'nn_inference_ap_fpext_0_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'nn_inference_ap_fpext_0_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'nn_inference_ap_fpext_0_no_dsp_32'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/steffen/tools/Vivado/2020.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 15 20:15:09 2020...
+INFO: [HLS 200-802] Generated output file /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/HLS/output/nn_inference.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 23.67 seconds. CPU system time: 3.46 seconds. Elapsed time: 28.72 seconds; current allocated memory: 216.165 MB.

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Jan 15 20:06:11 2023
+# Process ID: 22226
+# Current directory: /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones
+# Command line: vivado ./hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.xpr
+# Log file: /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/vivado.log
+# Journal file: /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project ./hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.xpr
+update_compile_order -fileset sources_1

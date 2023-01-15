@@ -1,0 +1,373 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:47 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 39177
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Jan 15 20:54:25 CET 2023
+Time zone: 	Central European Standard Time (Europe/Copenhagen)
+
+OS: Ubuntu
+OS Version: 5.15.0-58-generic
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: 0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	/home/steffen/tools/Vivado/2020.2/tps/lnx64/jre11.0.2
+Java executable location: 	/home/steffen/tools/Vivado/2020.2/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	steffen
+User home directory: /home/steffen
+User working directory: /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/steffen/tools/Vivado
+HDI_APPROOT: /home/steffen/tools/Vivado/2020.2
+RDI_DATADIR: /home/steffen/tools/Vivado/2020.2/data
+RDI_BINDIR: /home/steffen/tools/Vivado/2020.2/bin
+
+Vivado preferences file location: /home/steffen/.Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: /home/steffen/.Xilinx/Vivado/2020.2/
+Vivado layouts directory: /home/steffen/.Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	/home/steffen/tools/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/vivado.log
+Vivado journal file location: 	/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-39177-steffen-Lenovo-YOGA-530-14ARR
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /home/steffen/tools/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: /home/steffen/tools/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: /home/steffen/tools/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: /home/steffen/tools/Vivado/2020.2
+XILINX_SDK: /home/steffen/tools/Vitis/2020.2
+XILINX_VITIS: /home/steffen/tools/Vitis/2020.2
+XILINX_VIVADO: /home/steffen/tools/Vivado/2020.2
+XILINX_VIVADO_HLS: /home/steffen/tools/Vivado/2020.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,540 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 97 MB (+99006kb) [00:00:10]
+// [Engine Memory]: 1,526 MB (+1448299kb) [00:00:10]
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: ./hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project ./hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,550 MB. GUI used memory: 52 MB. Current time: 1/15/23, 8:54:26 PM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 118 MB (+16804kb) [00:00:24]
+// [Engine Memory]: 1,685 MB (+87347kb) [00:00:24]
+// WARNING: HEventQueue.dispatchEvent() is taking  5337 ms.
+// Tcl Message: open_project ./hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/ip'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/steffen/tools/Vivado/2020.2/data/ip'. 
+// [GUI Memory]: 133 MB (+10131kb) [00:00:26]
+// WARNING: HEventQueue.dispatchEvent() is taking  1555 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:15 . Memory (MB): peak = 7430.035 ; gain = 115.375 ; free physical = 3755 ; free virtual = 21151 
+// Project name: u96v2_sbc_mp4d; location: /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2; part: xczu3eg-sbva484-1-i
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bz (cr):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.srcs/sources_1/bd/u96v2_sbc_mp4d/u96v2_sbc_mp4d.bd} 
+// Tcl Message: Reading block design file </home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.srcs/sources_1/bd/u96v2_sbc_mp4d/u96v2_sbc_mp4d.bd>... 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,821 MB. GUI used memory: 91 MB. Current time: 1/15/23, 8:54:46 PM CET
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// [Engine Memory]: 1,822 MB (+54514kb) [00:00:35]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0 Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - axi_bram_ctrl_0_bram Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - axi_intc_0 Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - axi_smc 
+// Tcl Message: INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'. 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps8_0_100M Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0 Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0 Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.3 - zynq_ultra_ps_e_0 Adding component instance block -- xilinx.com:hls:nn_inference:1.0 - nn_inference_0 Adding component instance block -- xilinx.com:module_ref:not_gate:1.0 - not_gate_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_1 Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - axi_bram_ctrl_0_bram1 Adding component instance block -- xilinx.com:module_ref:fix_address:1.0 - fix_address_0 Adding component instance block -- xilinx.com:module_ref:nn_ctrl:1.0 - nn_ctrl_0 Successfully read diagram <u96v2_sbc_mp4d> from block design file </home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.srcs/sources_1/bd/u96v2_sbc_mp4d/u96v2_sbc_mp4d.bd> 
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  4189 ms.
+// [GUI Memory]: 155 MB (+15744kb) [00:00:50]
+// Elapsed time: 19 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design: Time (s): cpu = 00:01:04 ; elapsed = 00:00:18 . Memory (MB): peak = 8667.680 ; gain = 1217.637 ; free physical = 3419 ; free virtual = 20932 
+// [Engine Memory]: 1,960 MB (+49593kb) [00:00:51]
+// 'bF' command handler elapsed time: 19 seconds
+dismissDialog("Open Block Design"); // bz
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK
+// [GUI Memory]: 181 MB (+19131kb) [00:00:53]
+// [Engine Memory]: 2,151 MB (+97088kb) [00:00:53]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,240 MB. GUI used memory: 113 MB. Current time: 1/15/23, 8:55:06 PM CET
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (fix_address.vhd) elapsed time: 0.2s
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fix_address(Behavioral) (fix_address.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nn_ctrl(Behavioral) (nn_ctrl.vhd)]", 3, false, true, true, false, false, false); // D - Shift Key - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, not_gate(Behavioral) (not_gate.vhd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fix_address(Behavioral) (fix_address.vhd)]", 2, false, true, false, false, false, false); // D - Shift Key
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cr): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/src/fix_address.vhd] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/src/nn_ctrl.vhd] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/src/not_gate.vhd] -no_script -reset -force -quiet 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cr): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  {/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/src/fix_address.vhd /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/src/nn_ctrl.vhd /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/src/not_gate.vhd} 
+dismissDialog("Remove Sources"); // bz
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+// HMemoryUtils.trashcanNow. Engine heap size: 2,282 MB. GUI used memory: 128 MB. Current time: 1/15/23, 8:55:37 PM CET
+String[] filenames31467 = {"/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/src/fix_address.vhd", "/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/src/nn_ctrl.vhd", "/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/src/not_gate.vhd"};
+setFileChooser(filenames31467);
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_FILES_INTO, "Copy sources into project", true); // g: TRUE
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 13 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse {/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/src/fix_address.vhd /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/src/nn_ctrl.vhd /home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/src/not_gate.vhd} 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 33 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // h
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// bz (cr):  Refresh Changed Modules : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: update_module_reference u96v2_sbc_mp4d_fix_address_0_0 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/ip'. 
+// Tcl Message: Upgrading '/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.srcs/sources_1/bd/u96v2_sbc_mp4d/u96v2_sbc_mp4d.bd' 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// [GUI Memory]: 197 MB (+7229kb) [00:02:06]
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded u96v2_sbc_mp4d_fix_address_0_0 from fix_address_v1_0 1.0 to fix_address_v1_0 1.0 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : </home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.srcs/sources_1/bd/u96v2_sbc_mp4d/u96v2_sbc_mp4d.bd>  Wrote  : </home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.srcs/sources_1/bd/u96v2_sbc_mp4d/ui/bd_9932bf8f.ui>  
+// Tcl Message: update_module_reference u96v2_sbc_mp4d_nn_ctrl_0_0 
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'ap_rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'inp_rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'out_rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'i_Clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-4728] Bus Interface 'i_Clk': Added interface parameter 'ASSOCIATED_RESET' with value 'inp_rst'. 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/ip'. 
+// Tcl Message: Upgrading '/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.srcs/sources_1/bd/u96v2_sbc_mp4d/u96v2_sbc_mp4d.bd' 
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded u96v2_sbc_mp4d_nn_ctrl_0_0 from nn_ctrl_v1_0 1.0 to nn_ctrl_v1_0 1.0 
+// Tcl Message: Wrote  : </home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.srcs/sources_1/bd/u96v2_sbc_mp4d/u96v2_sbc_mp4d.bd>  Wrote  : </home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.srcs/sources_1/bd/u96v2_sbc_mp4d/ui/bd_9932bf8f.ui>  
+// Tcl Message: update_module_reference: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 9087.438 ; gain = 0.000 ; free physical = 3268 ; free virtual = 20805 
+// Tcl Message: update_module_reference u96v2_sbc_mp4d_not_gate_0_0 
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/ip'. 
+// Tcl Message: Upgrading '/home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.srcs/sources_1/bd/u96v2_sbc_mp4d/u96v2_sbc_mp4d.bd' 
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded u96v2_sbc_mp4d_not_gate_0_0 from not_gate_v1_0 1.0 to not_gate_v1_0 1.0 
+// Tcl Message: Wrote  : </home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.srcs/sources_1/bd/u96v2_sbc_mp4d/u96v2_sbc_mp4d.bd>  Wrote  : </home/steffen/uni/Embedded-Systems_MiniProject2022/MPSoC4Drones/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.srcs/sources_1/bd/u96v2_sbc_mp4d/ui/bd_9932bf8f.ui>  
+// Elapsed time: 12 seconds
+dismissDialog("Refresh Changed Modules"); // bz
+// [Engine Memory]: 2,353 MB (+99010kb) [00:02:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,358 MB. GUI used memory: 122 MB. Current time: 1/15/23, 8:56:32 PM CET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 684 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+// HMemoryUtils.trashcanNow. Engine heap size: 2,141 MB. GUI used memory: 123 MB. Current time: 1/15/23, 9:26:37 PM CET
