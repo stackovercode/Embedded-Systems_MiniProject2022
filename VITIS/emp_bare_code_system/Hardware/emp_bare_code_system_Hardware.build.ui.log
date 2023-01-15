@@ -1,0 +1,10 @@
+2023-01-13T13:35:34.43403300255-13:35:34 **** Build of configuration Hardware for project emp_bare_code_system ****
+000-make all 
+000-Generating bif file for the system project
+000-Executing command '::scw::generate_bif -xpfm /home/steffen/emb_my/MPSoC4Drones/VITIS_my/emb_system/export/emb_system/emb_system.xpfm -domains standalone_domain -bifpath /home/steffen/emb_my/MPSoC4Drones/VITIS_my/emp_bare_code_system/Hardware/system.bif' on XSCT
+000-sdcard_gen --xpfm /home/steffen/emb_my/MPSoC4Drones/VITIS_my/emb_system/export/emb_system/emb_system.xpfm --sys_config emb_system --bif /home/steffen/emb_my/MPSoC4Drones/VITIS_my/emp_bare_code_system/Hardware/system.bif --bitstream /home/steffen/emb_my/MPSoC4Drones/VITIS_my/emp_bare_code/_ide/bitstream/u96v2_sbc_mp4d.bit --elf /home/steffen/emb_my/MPSoC4Drones/VITIS_my/emp_bare_code/Debug/emp_bare_code.elf,psu_cortexa53_0
+000-creating BOOT.BIN using /home/steffen/emb_my/MPSoC4Drones/VITIS_my/emp_bare_code/_ide/bitstream/u96v2_sbc_mp4d.bit
+000-Running /home/steffen/tools/Vitis/2020.2/bin/bootgen -arch zynqmp -image /home/steffen/emb_my/MPSoC4Drones/VITIS_my/emp_bare_code_system/Hardware/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+13:35:44 Build Finished (took 9s.755ms)
+
